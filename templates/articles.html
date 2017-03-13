@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Articles</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				{% for name in names %}
+					<li><a href="../{{ name }}">{{ name }}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</header>
+
+	{% for lista in files %}
+		<h4>#{{ lista }}</h4>
+		{% for chunk in files[lista] %}
+			{% if chunk.startswith('<h1>') or chunk.startswith('<p>') %}
+				{{ chunk|safe }}
+			{% elif chunk|safe%}
+				<time>{{ chunk|safe }}</time>
+			{% else %}
+				pass
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+</body>
+</html>

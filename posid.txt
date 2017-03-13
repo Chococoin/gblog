@@ -1,0 +1,6 @@
+<h1>Post id #4</h1>
+<hr>
+<p>This is a irrgular post</p>
+<p>because the neme of the file</p>
+<p>doesn't starts as article</p>
+<p>but in any case it's a .txt file</p>

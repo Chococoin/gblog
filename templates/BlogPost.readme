@@ -1,0 +1,7 @@
+BlogPost
+
+1.- Backend in Flask
+	creazione di post, descritti da titolo, contenuto e data.
+	Endpoint "/" per servire la pagina del nostro blog.
+2.- Client python per creare post con requests.
+3.- Frontend html5+css per la pagina del nostro blog. Uso di flexbox per il layout.

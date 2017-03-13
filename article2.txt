@@ -1,0 +1,5 @@
+<h1>Second Article</h1>
+
+<p>Esto es un articulo escrito a as&aacute;.</p>
+<p>This is the second line of this article</p>
+<p>This is the trhir line of vthis article</p>
